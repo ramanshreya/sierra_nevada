@@ -345,7 +345,7 @@
         .attr("height", height)
     
     // Read data
-    d3.csv("https://github.com/ramanshreya/sierra_nevada/blob/main/data/Sierra.csv", function(data) {
+    d3.csv("https://raw.githubusercontent.com/ramanshreya/sierra_nevada/main/data/Sierra.csv", function(data) {
     
         data = data.filter(function(d){ return d.iucnRedListCategory != "Not Evaluated" })
       // Color palette for continents?
